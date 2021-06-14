@@ -1,0 +1,10 @@
+# build
+/dist/
+/node_modules/
+
+# develop
+.vscode/
+
+# system
+.DS_Store
+*.log
