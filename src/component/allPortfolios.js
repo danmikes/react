@@ -1,7 +1,3 @@
-import maya1 from '../image/portImages/maya1.jpg'
-import maya2 from '../image/portImages/maya2.jpg'
-import maya3 from '../image/portImages/maya3.jpg'
-import maya4 from '../image/portImages/maya4.jpg'
 import port1 from '../image/portImages/port1.jpg'
 import port2 from '../image/portImages/port2.jpg'
 import port3 from '../image/portImages/port3.jpg'
@@ -39,7 +35,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port3,
-    title: 'ReactJS'
+    title: 'React'
   },
   {
     id: 4,
@@ -63,13 +59,23 @@ const portfolios = [
   },
   {
     id: 6,
-    category: 'application',
+    category: 'fullstack',
     link1: 'https://www.github.com',
     link2: 'https://www.youtube.com',
     icon1: 'G',
     icon2: 'Y',
     image: port6,
-    title: 'fullstack'
+    title: 'Express/React'
+  },
+  {
+    id: 7,
+    category: 'fullstack',
+    link1: 'https://www.github.com',
+    link2: 'https://www.youtube.com',
+    icon1: 'G',
+    icon2: 'Y',
+    image: port7,
+    title: 'Java/React'
   }
 ]
 
