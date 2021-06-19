@@ -26,7 +26,7 @@ function HomePage() {
           <a href="https://youtube.com" className="icon-holder" >
             <FontAwesomeIcon icon={faYoutube} className="icon yt" />
           </a>
-          <a href="https://researchgate.net/Daniel-Mikes" className="icon-holder" >
+          <a href="https://researchgate.net/profile/Daniel-Mikes" className="icon-holder" >
             <FontAwesomeIcon icon={faResearchgate} className="icon rg" />
           </a>
         </div>
