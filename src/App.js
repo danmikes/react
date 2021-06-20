@@ -31,25 +31,20 @@ function App() {
             <Route path="/" exact>
               <HomePage />
             </Route>
-          </Switch>
-          <Switch>
             <Route path="/about" exact>
               <AboutPage />
             </Route>
-          </Switch>
-          <Switch>
             <Route path="/portfolio" exact>
               <PortfolioPage />
             </Route>
-          </Switch>
-          <Switch>
             <Route path="/blog" exact>
               <BlogPage />
             </Route>
-          </Switch>
-          <Switch>
             <Route path="/contact" exact>
               <ContactPage />
+            </Route>
+            <Route path="*" exact>
+              <HomePage />
             </Route>
           </Switch>
         </div>
