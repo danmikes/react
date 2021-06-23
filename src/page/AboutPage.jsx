@@ -16,17 +16,17 @@ function AboutPage() {
       <Title title={'skills'} span={'skills'} />
       <div className="skills-container">
         <SkillSection skill={'Java/SpringBoot/IntelliJ Idea'} progress={'80%'} />
-        <SkillSection skill={'JavaScript/ReactJS/Visual Studio Code'} progress={'40%'} />
-        <SkillSection skill={'JavaScript/ReactNative/Visual Studio Code'} progress={'10%'} />
-        <SkillSection skill={'TypeScript/Angular'} progress={'20%'} />
-        <SkillSection skill={'Python/PyCharm'} progress={'10%'} />
+        <SkillSection skill={'TypeScript/Angular'} progress={'40%'} />
+        <SkillSection skill={'JavaScript/ReactJS/Visual Studio Code'} progress={'60%'} />
+        <SkillSection skill={'JavaScript/ReactNative/Visual Studio Code'} progress={'40%'} />
+        <SkillSection skill={'Python/PyCharm'} progress={'20%'} />
         <SkillSection skill={'Vi/Bash/LateX'} progress={'80%'} />
         <SkillSection skill={'SQL/PostgreSql'} progress={'40%'} />
         <SkillSection skill={'noSQL/MongoDB'} progress={'40%'} />
         <SkillSection skill={'GraphQL/GraphQLPlayground'} progress={'20%'} />
-        <SkillSection skill={'LinkedData/SparQL'} progress={'1%'} />
-        <SkillSection skill={'Git/GitHub/GitLab'} progress={'90%'} />
-        <SkillSection skill={'Machine Learning/Artificial Intelligence'} progress={'0%'} />
+        <SkillSection skill={'LinkedData/SparQL'} progress={'5%'} />
+        <SkillSection skill={'Git/GitHub/GitLab'} progress={'80%'} />
+        <SkillSection skill={'Machine Learning/AI'} progress={'1%'} />
       </div>
 
       <Title title={'services'} span={'service'} />

@@ -1,14 +1,14 @@
-@import './style/about.scss';
-@import './style/blog.scss';
-@import './style/contact.scss';
-@import './style/layout.scss';
-@import './style/typography';
-@import './style/navbar.scss';
-@import './style/skill';
-@import './style/service';
-@import './style/portfolio';
-@import './style/title';
-@import './style/button';
+@import "./style/about.scss";
+@import "./style/blog.scss";
+@import "./style/contact.scss";
+@import "./style/layout.scss";
+@import "./style/typography";
+@import "./style/navbar.scss";
+@import "./style/skill";
+@import "./style/service";
+@import "./style/portfolio";
+@import "./style/title";
+@import "./style/button";
 
 * {
   padding: 0;
@@ -31,7 +31,7 @@ body::-webkit-scrollbar-track {
 
 body {
   color: #a4acc4;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 1.2rem;
 }
 
