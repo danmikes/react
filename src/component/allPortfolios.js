@@ -45,7 +45,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port4,
-    title: 'SQL'
+    title: 'PostgreSQL'
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port5,
-    title: 'noSQL'
+    title: 'MongoDB'
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port6,
-    title: 'Express/React'
+    title: 'React/Express/MongoDB'
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port7,
-    title: 'Java/React'
+    title: 'React/Java/PostgreSQL'
   }
 ]
 
