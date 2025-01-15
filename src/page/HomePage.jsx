@@ -14,9 +14,6 @@ function HomePage() {
           "this is the way"
         </p>
         <div className="icons">
-          <a href="https://facebook.com/dmikes8" className="icon-holder" >
-            <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-          </a>
           <a href="https://github.com/danmikes" className="icon-holder" >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
           </a>

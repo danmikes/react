@@ -13,7 +13,7 @@ function DetailSection() {
             </tr>
             <tr>
               <th>Age</th>
-              <th>54</th>
+              <th>57</th>
             </tr>
             <tr>
               <th>Nationality</th>

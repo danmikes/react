@@ -15,26 +15,26 @@ function AboutPage() {
 
       <Title title={'skills'} span={'skills'} />
       <div className="skills-container">
-        <SkillSection skill={'Java/SpringBoot/IntelliJ Idea'} progress={'80%'} />
-        <SkillSection skill={'TypeScript/Angular'} progress={'40%'} />
-        <SkillSection skill={'JavaScript/ReactJS/Visual Studio Code'} progress={'60%'} />
-        <SkillSection skill={'JavaScript/ReactNative/Visual Studio Code'} progress={'40%'} />
-        <SkillSection skill={'Python/PyCharm'} progress={'20%'} />
+        <SkillSection skill={'Java/SpringBoot'} progress={'80%'} />
+        <SkillSection skill={'TypeScript/Angular'} progress={'60%'} />
+        <SkillSection skill={'JavaScript/ReactJS'} progress={'40%'} />
+        <SkillSection skill={'JavaScript/ReactNative'} progress={'10%'} />
+        <SkillSection skill={'Python/Flask'} progress={'70%'} />
         <SkillSection skill={'Vi/Bash/LateX'} progress={'80%'} />
-        <SkillSection skill={'SQL/PostgreSql'} progress={'40%'} />
+        <SkillSection skill={'SQL/PostgreSql'} progress={'50%'} />
         <SkillSection skill={'noSQL/MongoDB'} progress={'40%'} />
-        <SkillSection skill={'GraphQL/GraphQLPlayground'} progress={'20%'} />
+        <SkillSection skill={'GraphQL/GraphQLPlayground'} progress={'10%'} />
         <SkillSection skill={'LinkedData/SparQL'} progress={'5%'} />
-        <SkillSection skill={'Git/GitHub/GitLab'} progress={'80%'} />
-        <SkillSection skill={'Machine Learning/AI'} progress={'1%'} />
+        <SkillSection skill={'Git/GitHub/GitLab'} progress={'90%'} />
+        <SkillSection skill={'Machine Learning/AI'} progress={'10%'} />
       </div>
 
       <Title title={'services'} span={'service'} />
       <div className="services-container">
-        <ServiceSection image={fullstack} title={'fullstack'} text={'JamStack'} />
-        <ServiceSection image={spring} title={'backend'} text={'SpringBoot'} />
-        <ServiceSection image={react} title={'frontend'} text={'React'} />
-        <ServiceSection image={app} title={'mobile'} text={'ReactNative'} />
+        <ServiceSection image={fullstack} title={'fullstack'} text={'FlaskStack'} />
+        <ServiceSection image={spring} title={'backend'} text={'Python'} />
+        <ServiceSection image={react} title={'frontend'} text={'Jinja'} />
+        <ServiceSection image={app} title={'mobile'} text={'MobiLoud'} />
       </div>
     </div>
   )

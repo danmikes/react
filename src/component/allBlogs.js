@@ -8,8 +8,8 @@ const blogs = [
   {
     id: 1,
     image: blog1,
-    title: 'Fullstack development with Jam-Stack',
-    link: 'https://www.facebook.com/',
+    title: 'Fullstack development with Flask-Stack',
+    // link: 'https://www.?/',
     date: '21',
     month: 'Mar',
     year: '2020'
@@ -18,7 +18,7 @@ const blogs = [
     id: 2,
     image: blog2,
     title: 'Backend development with SpringBoot',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '09',
     month: 'Dec',
     year: '2019'
@@ -27,7 +27,7 @@ const blogs = [
     id: 3,
     image: blog3,
     title: 'Frontend development with React',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '15',
     month: 'Jun',
     year: '2018'
@@ -36,7 +36,7 @@ const blogs = [
     id: 4,
     image: blog4,
     title: 'Mobile development with React-Native',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '04',
     month: 'Aug',
     year: '2020'
@@ -45,7 +45,7 @@ const blogs = [
     id: 5,
     image: blog5,
     title: 'How to prepare Coding Interview?',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
     year: '2019'
@@ -54,7 +54,7 @@ const blogs = [
     id: 6,
     image: blog5,
     title: 'How to become fullstack developer?',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
     year: '2019'
@@ -63,7 +63,7 @@ const blogs = [
     id: 7,
     image: blog3,
     title: 'How to become senior developer?',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
     year: '2019'
@@ -72,7 +72,7 @@ const blogs = [
     id: 8,
     image: blog1,
     title: 'Which stack is best?',
-    link: 'https://www.facebook.com/',
+    // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
     year: '2019'
