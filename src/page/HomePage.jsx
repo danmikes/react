@@ -1,6 +1,5 @@
-import { faFacebook, faGithub, faLinkedin, faYoutube, faResearchgate } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faYoutube, faResearchgate } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (

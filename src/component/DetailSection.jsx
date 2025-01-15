@@ -1,4 +1,3 @@
-import about from '../image/about.jpg'
 import Button from './Button'
 
 function DetailSection() {

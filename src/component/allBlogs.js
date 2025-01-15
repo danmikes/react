@@ -8,7 +8,7 @@ const blogs = [
   {
     id: 1,
     image: blog1,
-    title: 'Fullstack development with Flask-Stack',
+    title: 'Fullstack development with Flask',
     // link: 'https://www.?/',
     date: '21',
     month: 'Mar',

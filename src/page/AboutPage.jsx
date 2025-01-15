@@ -31,7 +31,7 @@ function AboutPage() {
 
       <Title title={'services'} span={'service'} />
       <div className="services-container">
-        <ServiceSection image={fullstack} title={'fullstack'} text={'FlaskStack'} />
+        <ServiceSection image={fullstack} title={'fullstack'} text={'Flask'} />
         <ServiceSection image={spring} title={'backend'} text={'Python'} />
         <ServiceSection image={react} title={'frontend'} text={'Jinja'} />
         <ServiceSection image={app} title={'mobile'} text={'MobiLoud'} />
