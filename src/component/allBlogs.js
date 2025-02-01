@@ -10,18 +10,18 @@ const blogs = [
     image: blog1,
     title: 'Fullstack development with Flask',
     // link: 'https://www.?/',
-    date: '21',
-    month: 'Mar',
-    year: '2020'
+    date: '01',
+    month: 'Jan',
+    year: '2025'
   },
   {
     id: 2,
     image: blog2,
     title: 'Backend development with SpringBoot',
     // link: 'https://www.?/',
-    date: '09',
+    date: '01',
     month: 'Dec',
-    year: '2019'
+    year: '2024'
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const blogs = [
   {
     id: 5,
     image: blog5,
-    title: 'How to prepare Coding Interview?',
+    title: 'Deploy to GitHub-Pages',
     // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
@@ -53,7 +53,7 @@ const blogs = [
   {
     id: 6,
     image: blog5,
-    title: 'How to become fullstack developer?',
+    title: 'Deploy to PythonAnywhere',
     // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
@@ -62,7 +62,7 @@ const blogs = [
   {
     id: 7,
     image: blog3,
-    title: 'How to become senior developer?',
+    title: 'Deploy to Raspi',
     // link: 'https://www.?/',
     date: '09',
     month: 'Sep',
