@@ -1,6 +1,13 @@
 import Button from './Button'
 
 function DetailSection() {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/cv.pdf';
+    link.download = 'dmikes_cv.pdf';
+    link.click();
+  }
+
   return (
     <div className="DetailSection">
       <div className="about-info">
@@ -20,7 +27,7 @@ function DetailSection() {
             </tr>
             <tr>
               <th>Language</th>
-              <th>Czech, Dutch, French, German, English, Russian, Spanish</th>
+              <th>Czech, Dutch, English, French, German, Russian, Spanish</th>
             </tr>
             <tr>
               <th>Domicile</th>
@@ -32,7 +39,7 @@ function DetailSection() {
             </tr>
           </table>
         </div>
-        <Button text="Download CV" />
+        <Button text="Download CV" onClick={handleDownload} />
       </div>
     </div>
   )

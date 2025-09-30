@@ -65,7 +65,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port6,
-    title: 'React/Express/MongoDB'
+    title: 'Flask/Jinja/Bulma'
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const portfolios = [
     icon1: 'G',
     icon2: 'Y',
     image: port7,
-    title: 'React/Java/PostgreSQL'
+    title: 'SvelteKit/Svelte/SQLite'
   }
 ]
 

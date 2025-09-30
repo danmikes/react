@@ -21,9 +21,9 @@ function ContactPage() {
           ></iframe>
         </div>
         <div className="contact-sect">
-          <ContactItem icon={phone} text={'+<phone>'} title={'phone'} />
-          <ContactItem icon={email} text={'<email>'} title={'email'} />
-          <ContactItem icon={location} text={'<city>'} title={'address'} />
+          <ContactItem icon={phone} text={'[NL] 6 4744 3505>'} title={'phone'} />
+          <ContactItem icon={email} text={'max8 [at] post [dot] cz'} title={'email'} />
+          <ContactItem icon={location} text={'2135RB Hoofddorp'} title={'address'} />
         </div>
       </div>
     </div>

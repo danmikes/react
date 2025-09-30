@@ -1,5 +1,4 @@
-import { faGithub, faLinkedin, faYoutube, faResearchgate } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaGithub, FaLinkedin, FaYoutube, FaResearchgate } from 'react-icons/fa'
 
 function HomePage() {
   return (
@@ -14,16 +13,16 @@ function HomePage() {
         </p>
         <div className="icons">
           <a href="https://github.com/danmikes" className="icon-holder" >
-            <FontAwesomeIcon icon={faGithub} className="icon gh" />
+            <FaGithub className="icon gh" />
           </a>
           <a href="https://linkedin.com/in/dmikes" className="icon-holder" >
-            <FontAwesomeIcon icon={faLinkedin} className="icon li" />
+            <FaLinkedin className="icon li" />
           </a>
           <a href="https://youtube.com" className="icon-holder" >
-            <FontAwesomeIcon icon={faYoutube} className="icon yt" />
+            <FaYoutube className="icon yt" />
           </a>
           <a href="https://researchgate.net/profile/Daniel-Mikes" className="icon-holder" >
-            <FontAwesomeIcon icon={faResearchgate} className="icon rg" />
+            <FaResearchgate className="icon rg" />
           </a>
         </div>
       </header>
