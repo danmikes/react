@@ -42,17 +42,32 @@
         transform: translate(-50%, -50%);
         padding: 1rem 2rem;
         visibility: hidden;
+        display: flex;
+        gap: 1.5rem;
         li {
           a {
-            padding: .5rem 1rem;
+            display: flex;
+            padding: .8rem;
             text-decoration: none;
             font-family: inherit;
-            border-radius: 100%;
+            border-radius: 50%;
             background-color: #037fff;
             color: white;
-            opacity: 80%;
-            &:not(:last-child) {
-              margin-right: 1rem;
+            opacity: 0.9;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              background-color: #0260c0;
+              transform: scale(1.1);
+              opacity: 1;
+            }
+
+            svg {
+              font-size: 1.2rem;
             }
           }
         }

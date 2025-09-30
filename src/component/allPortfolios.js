@@ -1,82 +1,39 @@
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import port1 from '../image/portImages/port1.jpg'
 import port2 from '../image/portImages/port2.jpg'
 import port3 from '../image/portImages/port3.jpg'
-import port4 from '../image/portImages/port4.jpg'
-import port5 from '../image/portImages/port5.jpg'
-import port6 from '../image/portImages/port6.jpg'
-import port7 from '../image/portImages/port7.jpg'
 
 const portfolios = [
   {
     id: 1,
-    category: 'backend',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
+    category: 'Mikes-Consult',
+    link1: 'https://www.github.com/danmikes/docker',
+    link2: 'https://dmikes.hopto.org',
+    icon1: <FaGithub />,
+    icon2: <FaExternalLinkAlt />,
     image: port1,
-    title: 'Java'
+    title: 'Flask'
   },
   {
     id: 2,
-    category: 'frontend',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
+    category: 'Wish-App',
+    link1: 'https://www.github.com/danmikes/flask',
+    link2: 'https://dmikes.eu.pythonanywhere.com',
+    icon1: <FaGithub />,
+    icon2: <FaExternalLinkAlt />,
     image: port2,
-    title: 'Angular'
+    title: 'Flask'
   },
   {
     id: 3,
-    category: 'frontend',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
+    category: 'SamSim',
+    link1: 'https://www.github.com/danmikes/samsim',
+    link2: 'https://www.researchgate.net/publication/375560659_Sensitivity_of_shoreline-trajectory_to_deposition-events',
+    icon1: <FaGithub />,
+    icon2: <FaExternalLinkAlt />,
     image: port3,
-    title: 'React'
+    title: 'Python'
   },
-  {
-    id: 4,
-    category: 'database',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
-    image: port4,
-    title: 'PostgreSQL'
-  },
-  {
-    id: 5,
-    category: 'database',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
-    image: port5,
-    title: 'MongoDB'
-  },
-  {
-    id: 6,
-    category: 'fullstack',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
-    image: port6,
-    title: 'Flask/Jinja/Bulma'
-  },
-  {
-    id: 7,
-    category: 'fullstack',
-    // link1: 'https://www.github.com/?',
-    // link2: 'https://www.youtube.com/?',
-    icon1: 'G',
-    icon2: 'Y',
-    image: port7,
-    title: 'SvelteKit/Svelte/SQLite'
-  }
 ]
 
 export default portfolios

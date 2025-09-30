@@ -9,6 +9,8 @@ function MenuItem({ menuItems }) {
               <ul className="hover-item">
                 <li>
                   <a href={item.link1}>{item.icon1}</a>
+                </li>
+                <li>
                   <a href={item.link2}>{item.icon2}</a>
                 </li>
               </ul>

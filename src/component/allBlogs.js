@@ -8,7 +8,7 @@ const blogs = [
   {
     id: 1,
     image: blog1,
-    title: 'Fullstack development with Flask',
+    title: 'Coaching',
     // link: 'https://www.?/',
     date: '01',
     month: 'Jan',
@@ -17,7 +17,7 @@ const blogs = [
   {
     id: 2,
     image: blog2,
-    title: 'Backend development with SpringBoot',
+    title: 'Codebase',
     // link: 'https://www.?/',
     date: '01',
     month: 'Dec',
@@ -26,7 +26,7 @@ const blogs = [
   {
     id: 3,
     image: blog3,
-    title: 'Frontend development with React',
+    title: 'Management',
     // link: 'https://www.?/',
     date: '15',
     month: 'Jun',
@@ -35,48 +35,12 @@ const blogs = [
   {
     id: 4,
     image: blog4,
-    title: 'Mobile development with React-Native',
+    title: 'Workflow',
     // link: 'https://www.?/',
     date: '04',
     month: 'Aug',
     year: '2020'
   },
-  {
-    id: 5,
-    image: blog5,
-    title: 'Deploy to GitHub-Pages',
-    // link: 'https://www.?/',
-    date: '09',
-    month: 'Sep',
-    year: '2019'
-  },
-  {
-    id: 6,
-    image: blog5,
-    title: 'Deploy to PythonAnywhere',
-    // link: 'https://www.?/',
-    date: '09',
-    month: 'Sep',
-    year: '2019'
-  },
-  {
-    id: 7,
-    image: blog3,
-    title: 'Deploy to Raspi',
-    // link: 'https://www.?/',
-    date: '09',
-    month: 'Sep',
-    year: '2019'
-  },
-  {
-    id: 8,
-    image: blog1,
-    title: 'Which stack is best?',
-    // link: 'https://www.?/',
-    date: '09',
-    month: 'Sep',
-    year: '2019'
-  }
 ];
 
 export default blogs;

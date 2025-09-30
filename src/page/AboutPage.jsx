@@ -2,51 +2,46 @@ import React from 'react'
 import Title from '../component/Title'
 import DetailSection from '../component/DetailSection'
 import SkillSection from '../component/SkillSection'
-import ServiceSection from '../component/ServiceSection'
-import react from '../image/react.png'
-import fullstack from '../image/fullstack.png'
-import spring from '../image/spring.png'
-import app from '../image/app.png'
 
 function AboutPage() {
   return (
     <div className="AboutPage">
-      <Title title={'details'} span={'details'} />
+      <Title title={'detail'} span={'detail'} />
       <DetailSection />
 
-      <Title title={'skills'} span={'skills'} />
-      <div className="skills-container">
-        <h1>Code</h1>
-        <SkillSection skill={'EcmaScript/ReactJS'} progress={'40%'} />
-        <SkillSection skill={'EcmaScript/ReactNative'} progress={'10%'} />
-        <SkillSection skill={'EcmaScript/Svelte'} progress={'60%'} />
-        <SkillSection skill={'Java/SpringBoot'} progress={'80%'} />
-        <SkillSection skill={'Machine Learning/AI'} progress={'10%'} />
-        <SkillSection skill={'Python/Flask'} progress={'70%'} />
-        <SkillSection skill={'TypeScript/Angular'} progress={'60%'} />
-        <SkillSection skill={'Vi/Bash/LateX'} progress={'90%'} />
-      </div>
+      <Title title={'skill'} span={'skill'} />
+      <div className="skill-category-container">
+        <div className="skill-container">
+          <h1>Coaching</h1>
+          <SkillSection skill={'Cohesion'} progress={'80%'} />
+          <SkillSection skill={'Communication'} progress={'70%'} />
+          <SkillSection skill={'Conflict'} progress={'60%'} />
+          <SkillSection skill={'Instruction'} progress={'90%'} />
+        </div>
 
-      <div className="skills-container">
-        <h1>Data</h1>
-        <SkillSection skill={'LinkedData/SparQL'} progress={'5%'} />
-        <SkillSection skill={'noSQL/MongoDB'} progress={'40%'} />
-        <SkillSection skill={'SQL/PostgreSql'} progress={'50%'} />
-      </div>
+        <div className="skill-container">
+          <h1>Codebase</h1>
+          <SkillSection skill={'Design'} progress={'60%'} />
+          <SkillSection skill={'Functionality'} progress={'80%'} />
+          <SkillSection skill={'Structure'} progress={'70%'} />
+          <SkillSection skill={'User Experience'} progress={'90%'} />
+        </div>
 
-      <div className="skills-container">
-        <h1>Infra</h1>
-        <SkillSection skill={'Git/GitHub/GitLab'} progress={'90%'} />
-        <SkillSection skill={'GraphQL/GraphQLPlayground'} progress={'10%'} />
-        <SkillSection skill={'AWS/Terraform'} progress={'90%'} />
-      </div>
+        <div className="skill-container">
+          <h1>Management</h1>
+          <SkillSection skill={'Coordination'} progress={'70%'} />
+          <SkillSection skill={'Project Planning'} progress={'80%'} />
+          <SkillSection skill={'Project Management'} progress={'90%'} />
+          <SkillSection skill={'Technical Advice'} progress={'60%'} />
+        </div>
 
-      <Title title={'services'} span={'service'} />
-      <div className="services-container">
-        <ServiceSection image={fullstack} title={'fullstack'} text={'Flask'} />
-        <ServiceSection image={spring} title={'backend'} text={'Python'} />
-        <ServiceSection image={react} title={'frontend'} text={'Jinja'} />
-        <ServiceSection image={app} title={'mobile'} text={'MobiLoud'} />
+        <div className="skill-container">
+          <h1>Workflow</h1>
+          <SkillSection skill={'Coding'} progress={'90%'} />
+          <SkillSection skill={'Feedback'} progress={'80%'} />
+          <SkillSection skill={'Requirements'} progress={'70%'} />
+          <SkillSection skill={'Support'} progress={'60%'} />
+        </div>
       </div>
     </div>
   )

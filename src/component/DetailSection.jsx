@@ -11,7 +11,7 @@ function DetailSection() {
   return (
     <div className="DetailSection">
       <div className="about-info">
-        <div className="about-details">
+        <div className="about-detail">
           <table>
             <tr>
               <th>Name</th>

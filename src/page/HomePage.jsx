@@ -1,3 +1,8 @@
+import ServiceSection from '../component/ServiceSection'
+import react from '../image/react.png'
+import fullstack from '../image/fullstack.png'
+import spring from '../image/spring.png'
+import app from '../image/app.png'
 import { FaGithub, FaLinkedin, FaYoutube, FaResearchgate } from 'react-icons/fa'
 
 function HomePage() {
@@ -6,11 +11,8 @@ function HomePage() {
       <header className="hero">
         <h1 className="hero-text">
           <p>Daniel Mikes</p>
-          <span> geologist &rarr; developer</span>
+          <span>Technical Project Manager</span>
         </h1>
-        <p className="h-sub-text">
-          "this is the way"
-        </p>
         <div className="icons">
           <a href="https://github.com/danmikes" className="icon-holder" >
             <FaGithub className="icon gh" />
@@ -26,6 +28,25 @@ function HomePage() {
           </a>
         </div>
       </header>
+
+      <div className="service-container">
+        <ServiceSection
+          image={spring}
+          title={'Coaching'}
+          items={['Cohesion', 'Communication', 'Conflict', 'Instruction']} />
+        <ServiceSection
+          image={app}
+          title={'Codebase'}
+          items={['Design', 'Functionality', 'Structure', 'User Experience']} />
+        <ServiceSection
+          image={fullstack}
+          title={'Management'}
+          items={['Coordination', 'Project Planning', 'Project Management', 'Technical Advice']} />
+        <ServiceSection
+          image={react}
+          title={'Workflow'}
+          items={['Coding', 'Feedback', 'Requirements', 'Support']} />
+      </div>
     </div>
   )
 }
