@@ -2,7 +2,6 @@ import blog1 from '../image/blogs/blog1.svg';
 import blog2 from '../image/blogs/blog2.svg';
 import blog3 from '../image/blogs/blog3.svg';
 import blog4 from '../image/blogs/blog4.svg';
-import blog5 from '../image/blogs/blog5.svg';
 
 const blogs = [
   {
