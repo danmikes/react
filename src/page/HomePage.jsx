@@ -11,7 +11,7 @@ function HomePage() {
       <header className="hero">
         <h1 className="hero-text">
           <p>Daniel Mikes</p>
-          <span>Technical Project Manager</span>
+          <span>Consultor</span>
         </h1>
         <div className="icons">
           <a href="https://github.com/danmikes" className="icon-holder" >
