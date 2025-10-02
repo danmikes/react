@@ -26,11 +26,6 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/blog" exact activeClassName="active">
-              Blog
-            </NavLink>
-          </li>
-          <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
               Contact
             </NavLink>
