@@ -3,7 +3,7 @@ import react from '../image/react.png'
 import fullstack from '../image/fullstack.png'
 import spring from '../image/spring.png'
 import app from '../image/app.png'
-import { FaGithub, FaLinkedin, FaYoutube, FaResearchgate } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaResearchgate } from 'react-icons/fa'
 
 function HomePage() {
   return (
@@ -19,9 +19,6 @@ function HomePage() {
           </a>
           <a href="https://linkedin.com/in/dmikes" className="icon-holder" >
             <FaLinkedin className="icon li" />
-          </a>
-          <a href="https://youtube.com" className="icon-holder" >
-            <FaYoutube className="icon yt" />
           </a>
           <a href="https://researchgate.net/profile/Daniel-Mikes" className="icon-holder" >
             <FaResearchgate className="icon rg" />
