@@ -1,9 +1,8 @@
 .HomePage {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
 }
 .hero-text {
   color: white;
