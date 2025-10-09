@@ -4,7 +4,6 @@ function ContactItem({ icon, text, title }) {
       <div className="contact">
         <img src={icon} alt="" />
         <div className="right-items">
-          <h6>{title}</h6>
           <p>{text}</p>
         </div>
       </div>
