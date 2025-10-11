@@ -1,23 +1,17 @@
 # React-App
-
 - Mikes-Consult
 - Yarn React
 
-## GitHub
-- [github.com/danmikes/react.git](https://github.com/danmikes/react.git)
+## Code
+- [github](https://github.com/danmikes/react.git)
 
-## Configuration
+## Install
 - `yarn install`
-- `deploy.yml`
 
 ## Develop
 - `yarn start`
-
-## View
-- [localhost:3000](http://localhost:3000)
-
-# Deploy
 - `git push`
 
-# Website
-- [danmikes.github.io/react](https://danmikes.github.io/react)
+## View
+- [local](http://localhost:3000)
+- [remote](https://danmikes.github.io/react)
