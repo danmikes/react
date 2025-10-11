@@ -3,15 +3,20 @@
 - Yarn React
 
 ## Code
-- [github](https://github.com/danmikes/react.git)
+- [github](https://github.com/danmikes/react)
 
 ## Install
 - `yarn install`
 
 ## Develop
 - `yarn start`
-- `git push`
+- [view](http://localhost:3000)
 
-## View
-- [local](http://localhost:3000)
-- [remote](https://danmikes.github.io/react)
+## Preview
+- `yarn build`
+- `npx serve -s build -l 3000`
+- [view](http://localhost:3000/react)
+
+## Deploy
+- `git push`
+- [view](https://danmikes.github.io/react)

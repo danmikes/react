@@ -6,16 +6,26 @@ import port3 from '../image/portImages/port3.jpg'
 const portfolios = [
   {
     id: 1,
-    category: 'Mikes-Consult',
-    link1: 'https://www.github.com/danmikes/docker',
-    link2: 'https://dmikes.hopto.org',
+    category: 'Consult',
+    link1: 'https://www.github.com/danmikes/svele',
+    link2: 'https://danmikes.github.io/svelte',
     icon1: <FaGithub />,
     icon2: <FaExternalLinkAlt />,
     image: port1,
-    title: 'Flask'
+    title: 'Svelte'
   },
   {
     id: 2,
+    category: 'SamSim',
+    link1: 'https://www.github.com/danmikes/samsim',
+    link2: 'https://dmikes.duckdns.org',
+    icon1: <FaGithub />,
+    icon2: <FaExternalLinkAlt />,
+    image: port3,
+    title: 'Python'
+  },
+  {
+    id: 3,
     category: 'Wish-App',
     link1: 'https://www.github.com/danmikes/flask',
     link2: 'https://dmikes.eu.pythonanywhere.com',
@@ -23,16 +33,6 @@ const portfolios = [
     icon2: <FaExternalLinkAlt />,
     image: port2,
     title: 'Flask'
-  },
-  {
-    id: 3,
-    category: 'SamSim',
-    link1: 'https://www.github.com/danmikes/samsim',
-    link2: 'https://www.researchgate.net/publication/375560659_Sensitivity_of_shoreline-trajectory_to_deposition-events',
-    icon1: <FaGithub />,
-    icon2: <FaExternalLinkAlt />,
-    image: port3,
-    title: 'Python'
   },
 ]
 
