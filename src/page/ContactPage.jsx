@@ -3,8 +3,13 @@ import ContactItem from '../component/ContactItem'
 import email from '../image/email.svg'
 import location from '../image/location.svg'
 import phone from '../image/phone.svg'
+import { useEffect } from 'react'
 
 function ContactPage() {
+  useEffect(() => {
+    document.title = "Mikes Consult | contact";
+  }, []);
+
   return (
     <div className='ContactPage'>
       <Title title={'contact'} span={'contact'} />

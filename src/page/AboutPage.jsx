@@ -2,8 +2,13 @@ import React from 'react'
 import Title from '../component/Title'
 import DetailSection from '../component/DetailSection'
 import SkillSection from '../component/SkillSection'
+import { useEffect } from 'react'
 
 function AboutPage() {
+  useEffect(() => {
+    document.title = "Mikes Consult | about";
+  }, []);
+
   return (
     <div className="AboutPage">
       <Title title={'detail'} span={'detail'} />

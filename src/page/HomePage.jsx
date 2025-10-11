@@ -4,8 +4,13 @@ import fullstack from '../image/fullstack.png'
 import spring from '../image/spring.png'
 import app from '../image/app.png'
 import { FaGithub, FaLinkedin, FaResearchgate } from 'react-icons/fa'
+import { useEffect } from 'react'
 
 function HomePage() {
+  useEffect(() => {
+    document.title = "Mikes Consult | home";
+  }, []);
+
   return (
     <div className="HomePage">
       <header className="hero">
