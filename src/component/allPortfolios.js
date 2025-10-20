@@ -7,8 +7,8 @@ const portfolios = [
   {
     id: 1,
     category: 'Consult',
-    link1: 'https://www.github.com/danmikes/svele',
-    link2: 'https://danmikes.github.io/svelte',
+    link1: 'https://www.github.com/danmikes/consult',
+    link2: 'https://danmikes.github.io/consult',
     icon1: <FaGithub />,
     icon2: <FaExternalLinkAlt />,
     image: port1,
@@ -27,7 +27,7 @@ const portfolios = [
   {
     id: 3,
     category: 'Wish-App',
-    link1: 'https://www.github.com/danmikes/flask',
+    link1: 'https://www.github.com/danmikes/wish',
     link2: 'https://dmikes.eu.pythonanywhere.com',
     icon1: <FaGithub />,
     icon2: <FaExternalLinkAlt />,

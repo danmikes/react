@@ -3,7 +3,7 @@
 - Yarn React
 
 ## Code
-- [github](https://github.com/danmikes/react)
+- [github](https://github.com/danmikes/folio)
 
 ## Install
 - `yarn install`
@@ -19,4 +19,4 @@
 
 ## Deploy
 - `git push`
-- [view](https://danmikes.github.io/react)
+- [view](https://danmikes.github.io/folio)
