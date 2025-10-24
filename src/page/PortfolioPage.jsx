@@ -18,13 +18,13 @@ function PortfolioPage() {
     if (category === 'All') {
       setMenuItems(portfolios)
       return menuItems
-    }  
+    }
     const filteredData = portfolios.filter((item) => {
       return item.category === category
-    })  
+    })
 
     setMenuItems(filteredData)
-  }  
+  }
 
   return (
     <div className="PortfolioPage">
